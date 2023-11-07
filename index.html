@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Selectors and Specificity</title>
+    </head>
+    <body>
+        <h1>CSS Selectors and Specificity</h1>
+        <div>
+            <h2>CSS Selectors</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag">h1, h2, p, etc...</td>
+                        <td>Header 1, Header 2, Paragraph</td>
+                        <td>This are the selectors you use to write HTML.ÍÍÍÍÍ</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">class = ""</td>
+                        <td>class attribute</td>
+                        <td>Used to add classes to HTML elements, mostly to style with CSS.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">id = ""</td>
+                        <td>id attribute</td>
+                        <td>Used to uniquely identify an individual element on a web page. </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Specificity</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Priority</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1st</td>
+                        <td>id attribute</td>
+                        <td>This is the most specific way to target an element.</td>
+                    </tr>
+                    <tr>
+                        <td>2nd</td>
+                        <td>class attribute</td>
+                        <td>Elements can have many classes, therefor are not as specific as the id attribute.</td>
+                    </tr>
+                    <tr>
+                        <td>3rd</td>
+                        <td>h1, h2, p, etc...</td>
+                        <td>Since elements can be used multiple times on a web page, they are the less specific way to target an element.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
